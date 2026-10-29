@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>L'avian</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .header{
+            background-color: antiquewhite;
+            padding:20px;
+        }
+        .nav-links{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: right;
+            color: rgb(150, 82, 56);
+        }
+        .nav-links a {
+            padding: 20px;
+            margin-right: 25px;
+            font-size: 25px;
+        }
+
+        .nav-links {
+            padding: 4px;
+            margin-right: 25px;
+            font-size: 25px;
+        }
+
+        .header>div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header img{
+            width: 300px;
+            height: auto;
+            float:left;
+            object-fit: cover;
+
+        }
+
+        .icons {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .icons a {
+        color: #b58b91;
+        font-size: 18px;
+    }
+        .cakes{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .cake{
+            text-align: center;
+            padding: 15px;
+        }
+
+        .cake img{
+            width: 100%;
+            max-width: 250px;
+            height: 200px;
+            object-fit: cover;
+            box-shadow: 4px 4px 6px #999;
+            border-radius: 10px;
+        }
+
+        .cake h3{
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+        .menu {
+            text-align: center;color: #b58b91;
+            font-size: 50px;
+
+        }
+
+         .member {
+            padding: 28px 15px;
+            border-bottom: 1px solid #efcfdb;
+            text-align: center;
+        }
+
+        .member-photo {
+            width: 100px;
+            height: 80px;
+            margin: 0 auto 14px;
+            border: 2px solid #edb7ca;
+            border-radius: 12px;
+            overflow: hidden;
+            background-color: #fbe5ed;
+        }
+
+        .member-photo img {
+            width: 50%;
+            height: 50%;
+            object-fit: cover;
+        }
+
+        .member h3 {
+            font-size: 40px;
+            font-weight: bold;
+            color: #bd557e;
+        }
+
+        .member h4 {
+            font-size: 20px;
+            font-weight: bold;
+            color:#333;
+        }
+
+
+        .member p {
+            margin-top: 6px;
+            color: #80616c;
+        }
+
+       .member img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%; /* ảnh tròn */
+    display: block;
+    margin: 0 auto;
+}
+    </style>
+</head>
+
+<body>
+
+<header class="header">
+            <div>
+           
+                <img src="./img/logo.png" alt="logo"></a>
+                <nav class="nav-links">
+                        <a href="index.html">Home</a>
+                        <a href="Menu.html">Menu</a>
+                        <a href="AboutUs.html">About us</a>
+                        <a href="Contact.html">Contact</a>
+                </nav>
+                <div class="icons">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-regular fa-user"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </header>
+
+<h1 class="menu">MENU</h1>
+
+
+
+    <div class="cakes">
+
+        <div class="cake">
+            <img src="./images/hinh1.jpg" alt="cake1">
+            <h3>Sausage Bread</h3>
+        </div>
+
+        <div class="cake">
+            <img src="./images/hinh2.jpg" alt="cake2">
+            <h3>Mini Bear Cake</h3>
+        </div>
+
+        <div class="cake">
+            <img src="./images/hinh3.jpg" alt="cake3">
+            <h3>Garlic Butter Toasted Bread</h3>
+        </div>
+
+        <div class="cake">
+            <img src="./images/h4.jpg" alt="cake4">
+            <h3>Bread Roll</h3>
+        </div>
+
+        <div class="cake">
+            <img src="./images/h5.jpg" alt="cake5">
+            <h3>Butter Tteok</h3>
+        </div>
+
+        <div class="cake">
+            <img src="./images/h6.jpg" alt="cake6">
+            <h3>Flan</h3>
+            
+        </div>
+
+        <div class="cake">
+            <img src="./images/h7.jpg" alt="cake7">
+            <h3>Chewy cheese cake</h3>
+        </div>
+
+        <div class="cake">
+            <img src="./images/h8.jpg" alt="cake8">
+            <h3>Banana Cake</h3>
+        </div>
+
+        <div class="cake">
+            <img src="./images/h9.jpg" alt="cake9">
+            <h3>Mini Flan</h3>
+        </div>
+
+        <div class="cake">
+            <img src="./images/h10.jpg" alt="cake10">
+            <h3>Cream puff</h3>
+        </div>
+
+        <div class="cake">
+            <img src="./images/h11.jpg" alt="cake11">
+            <h3>Palm sugar sponge cake</h3>
+        </div>
+
+        <div class="cake">
+            <img src="./images/h12.jpg" alt="cake12">
+            <h3>Cat's tongue cookies</h3>
+        </div>
+
+         <div class="cake">
+            <img src="./images/h13.jpg" alt="cake13">
+            <h3>Tart</h3>
+        </div>
+
+         <div class="cake">
+            <img src="./images/h14.jpg" alt="cake14">
+            <h3>Crab cheese bun</h3>
+        </div>
+
+         <div class="cake">
+            <img src="./images/h15.jpg" alt="cake15">
+            <h3>Garlic butter bread</h3>
+        </div>
+
+    </div>
+
+
+    
+    <main class="memeber">
+
+        <div class="member">
+            <h2 class="member">
+               ABOUT US
+            </h2>
+
+        </div>
+
+        <section class="member">
+            <div class="member">
+                <img src="./images/vy.jpg" alt="Chef">
+                <h3>Chef</h3>
+                <h4>VyLee</h4>
+            </div>
+
+        
+            <div class="member">
+                <img src="./images/PAnh.jpg" alt="Saler">
+                <h3>Saler</h3>
+                <h4>Panh</h4>
+            </div>
+
+            <div class="member">
+                <img src="./images/TrAnh.jpg" alt="Manager">
+                <h3>Manager</h3>
+                <h4>Tranh</h4>
+            </div>
+
+            <div class="member">
+                <img src="./images/Luowng.jpg" alt="Marketer">
+                <h3>Marketer</h3>
+                <h4>HL</h4>
+            </div>
+
+</body>
+</html>
